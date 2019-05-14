@@ -120,8 +120,8 @@ public class ShoppingOrderDaoTests {
         item_3.setId(UUID.fromString("00000000-0000-0000-0000-000000000003"));
         item_3.setName("Item name #3");
         Item item_4 = new Item();
-        item_4.setId(UUID.fromString("00000000-0000-0000-0000-000000000003"));
-        item_4.setName("Item name #3");
+        item_4.setId(UUID.fromString("00000000-0000-0000-0000-000000000004"));
+        item_4.setName("Item name #4");
 
         List<Item> updatedItemList = new ArrayList<>();
         updatedItemList.add(item_1);
