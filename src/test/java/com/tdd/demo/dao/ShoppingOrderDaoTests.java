@@ -160,10 +160,6 @@ public class ShoppingOrderDaoTests {
         ShoppingOrder savedOrder = shoppingOrderDao.save(stubShoppingOrder.stub(1));
     }
 
-
-    //It was half of the pain, now - imagine - you need parial update
-
-
     @Test
     @DataSet({
             "db-rider/shoppingOrder-1.xml",
